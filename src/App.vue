@@ -1,13 +1,5 @@
 <script setup>
-import { getCountriesAPI } from '@/api'
 import InputSelect from './components/InputSelect.vue'
-
-async function getCountriesData() {
-  const { data } = await getCountriesAPI()
-  console.log(data)
-}
-
-getCountriesData()
 </script>
 
 <template>
